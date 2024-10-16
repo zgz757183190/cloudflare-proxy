@@ -6,7 +6,7 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  "646f636b6572.boown.com": dockerHub,
+  "docker.757183190.us.kg": dockerHub,
   "71756179.boown.com": "https://quay.io",
   "676372.boown.com": "https://gcr.io",
   "6b38732d676372.boown.com": "https://k8s.gcr.io",
@@ -16,7 +16,6 @@ const routes = {
   "70797069.boown.com": "https://pypi.org",
   "6e706d6a73.boown.com": "https://registry.npmjs.org",
   "636e706d6a73.boown.com": "http://r.cnpmjs.org",
-  "757183190.us.kg": "https://registry-1.docker.io",
 };  
 
 function routeByHosts(host) {
