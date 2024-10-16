@@ -16,6 +16,7 @@ const routes = {
   "70797069.boown.com": "https://pypi.org",
   "6e706d6a73.boown.com": "https://registry.npmjs.org",
   "636e706d6a73.boown.com": "http://r.cnpmjs.org",
+  "757183190@qq.com": "https://registry-1.docker.io",
 };
 
 function routeByHosts(host) {
